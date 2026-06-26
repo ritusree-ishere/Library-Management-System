@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-box">
+
+    <h2>📚 My Borrowed Books</h2>
+
+    <div class="row g-4 mt-3">
+        {% for book in books %}
+        <div class="col-md-4">
+            <div class="card p-4">
+
+                <h5>{{ book.title }}</h5>
+                <p>{{ book.author }}</p>
+
+                <a href="/return/{{ book.id }}" class="btn btn-warning btn-sm">
+                    Return Book
+                </a>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock %}

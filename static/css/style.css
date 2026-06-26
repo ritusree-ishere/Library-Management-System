@@ -1,0 +1,212 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(10px);
+}
+
+/* Main container */
+.container-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+/* Stats cards */
+.card.text-center {
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    color: white;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(135deg, #ff7a18, #ff5722);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(135deg, #fbc02d, #f57f17);
+    border: none;
+    color: white;
+}
+
+.btn-danger {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+}
+
+/* Search */
+#searchInput {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-brand {
+    color: #333;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: #fbc02d;
+}
+
+/* FORCE DARK MODE */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* override bootstrap */
+.dark-mode .container-box,
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #000000;
+}
+
+.dark-mode input {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+.book-item {
+    background: #1e1e1e;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    min-height: 260px;
+
+    /* subtle light border */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    /* soft grey shadow (visible on dark bg) */
+    box-shadow: 0 4px 15px rgba(179, 179, 179, 0.05);
+}
+
+.book-item:hover {
+    box-shadow: 
+        0 10px 30px rgba(255, 202, 164, 0.3),
+        0 0 12px rgba(255, 209, 176, 0.2);
+}
+
+.author-text {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.price-text {
+    color: #00c853;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.rating {
+    color: gold;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    background: #222;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333;
+}
+
+body.dark-mode .navbar {
+    background-color: #1a1a1a !important;
+}
+
+body.dark-mode .form-control {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark-mode .btn-light {
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card, .navbar, .form-control {
+    transition: all 0.3s ease;
+}
+
+.book-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.book-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card {
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.btn-primary {
+    background: #6366f1;
+    border: none;
+}
