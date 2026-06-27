@@ -28,9 +28,14 @@ It allows users to browse, issue, and return books, while administrators can man
 ```
 pip install -r requirements.txt
 ```
-3. Add your Firebase service account key.
+3. Add your Firebase service account key (serviceAccountKey.json) to the project folder.
 
 4. Run the application:
 ```
 python app.py
+```
+
+5. Open your browser and visit:
+```
+http://127.0.0.1:5000
 ```
