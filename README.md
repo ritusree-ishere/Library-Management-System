@@ -1,10 +1,10 @@
 
-## Library Management System
+## **Library Management System**
 A web-based Library Management System built with Flask and Firebase Firestore. 
 It allows users to browse, issue, and return books, while administrators can manage the library collection through a simple dashboard.
 
 
-#### Features
+### **Features**
 * User registration and login
 * Book search
 * Issue and return books
@@ -12,7 +12,7 @@ It allows users to browse, issue, and return books, while administrators can man
 * Add, edit, and delete books
 
 
-#### Tech Stack
+### **Tech Stack**
 * Python
 * Flask
 * Firebase Firestore
@@ -21,16 +21,16 @@ It allows users to browse, issue, and return books, while administrators can man
 * Bootstrap
 * JavaScript
 
-#### Getting Started
+### **Getting Started**
 1. Clone the repository.
 
 2. Install the required packages:
-
+```
 pip install -r requirements.txt
-
+```
 3. Add your Firebase service account key.
 
 4. Run the application:
-
+```
 python app.py
-
+```
